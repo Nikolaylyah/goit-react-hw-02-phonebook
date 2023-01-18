@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { InputLabel, FormInput } from './ContactFilter.styled';
+import React from 'react';
 
 const ContactFilter = ({ value, onChange }) => {
   return (
@@ -7,8 +8,6 @@ const ContactFilter = ({ value, onChange }) => {
       Find contacts by name:
       <FormInput
         type="text"
-        name="filter"
-        value={value}
         onChange={onChange}
       ></FormInput>
     </InputLabel>
