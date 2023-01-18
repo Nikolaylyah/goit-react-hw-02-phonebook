@@ -14,7 +14,6 @@ const ContactFilter = ({ value, onChange }) => {
     </InputLabel>
   );
 };
-
 ContactFilter.propTypes = {
   value: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired,
