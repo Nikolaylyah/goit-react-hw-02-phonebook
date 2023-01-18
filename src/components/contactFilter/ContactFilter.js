@@ -8,6 +8,7 @@ const ContactFilter = ({ value, onChange }) => {
       Find contacts by name:
       <FormInput
         type="text"
+        name={value}
         onChange={onChange}
       ></FormInput>
     </InputLabel>
