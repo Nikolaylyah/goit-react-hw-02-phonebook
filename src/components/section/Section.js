@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { Box, Title } from './Section.styled';
+ 
 
 function Section({ title, children }) {
   return (
