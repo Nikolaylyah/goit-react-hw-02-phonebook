@@ -30,7 +30,7 @@ class App extends React.Component {
     const { name, number } = newContact;
 
     if (this.isInContacts(newContact)) {
-      alert(`${name} is already in contacts`);
+      alert(`${number} is already in contacts`);
       return;
     }
 
