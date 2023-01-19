@@ -5,6 +5,7 @@ import { theme } from './constants/theme';
 import './index.css';
 import App from './App';
 
+
 ReactDOM.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
