@@ -63,7 +63,6 @@ class App extends React.Component {
     const filteredContacts = contacts.filter(contact =>
       contact.name.toLowerCase().includes(normalizedFilter),
     );
-
     return (
       <Header title="Phonebook">
         <Container>
