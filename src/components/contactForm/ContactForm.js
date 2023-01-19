@@ -7,6 +7,7 @@ import {
   FormButton,
 } from './ContactForm.styled';
 
+
 export class ContactForm extends Component {
   state = {
     name: '',
