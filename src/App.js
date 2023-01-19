@@ -33,7 +33,7 @@ class App extends React.Component {
       alert(`${number} is already in contacts`);
       return;
     }
-
+    
     const contact = {
       id: nanoid(),
       name,
