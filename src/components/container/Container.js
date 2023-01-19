@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { Box } from './Container.styled';
 
+
 function Container({ children }) {
   return <Box>{children}</Box>;
 }

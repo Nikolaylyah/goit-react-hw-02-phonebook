@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { Title } from './Header.styled';
 
+
 function Header({ title, children }) {
   return (
     <>
